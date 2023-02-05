@@ -1,0 +1,336 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <style>
+        body{
+  margin:0;
+}
+
+input {
+      width: 100%;
+      padding: 7px 26px;
+      background: #ffffff;
+      font-size: 18px;
+      color: black;
+      border-radius: 14px;
+      border: none;
+      outline: none;
+  }
+
+  .BoxChat {
+      background: #efeae2;
+      margin: 10px 24%;
+      height: 100%;
+  }
+
+  .BoxMassage {
+      padding: 4%;
+      overflow-y: scroll;
+      height: 58vh;
+      position: relative;
+  }
+
+  .massage {
+      max-width: 43%;
+      padding: 1% 4%;
+      border-radius: 7.5px;
+      box-shadow: 0 1px 0.5px #0000001a;
+      margin: 17px 0;
+      font-family: sans-serif;
+      line-height: 24px;
+      animation-duration: 1s;
+  }
+
+  .msgBot {
+      background: #d9fdd3;
+      margin-left: auto;
+      padding: 2% 4%;
+      animation-name: senmsgbot;
+  }
+    .button_css{
+            color:#494949;
+            text-transform: uppercase;
+            text-decoration: none;
+            background: #ffffff;
+            padding: 20px;
+            border: 4px solid #494949;
+            display: inline-block;
+            transition: all 0.4s ease 0s;
+        }
+
+        .button_css:hover{
+            color: #ffffff;
+            background: #f6b93b;
+            border-color: #f6b93b;
+            transition: all 0.4s ease 0s;
+        }
+        .user_input{
+            width:200px;
+            height:70px;
+            font-size:30px;
+            justify-content:center;
+            text-align:center;
+        }
+  .msgUser {
+      background: white;
+      animation-name: senmsguser;
+  }
+
+.massage>p {
+  margin: 3px;
+}
+
+  .send {
+      padding: 8px 30px;
+      cursor: pointer;
+      margin: auto 0;
+  }
+
+  .BoxSend {
+      display: flex;
+      background: #f0f2f5;
+      padding: 14px;
+  }
+
+  .BoxInfoUser {
+      display: flex;
+      background: #f0f2f5;
+      padding: 9px;
+  }
+
+  .Menu {
+      width: 70px;
+      padding: 10px 13px;
+      margin: auto 0;
+      margin-left: auto;
+      border-radius: 12px;
+      cursor: pointer;
+      font-family: sans-serif;
+      text-align: center;
+  }
+
+  .Menu:hover {
+      animation: bg 2s;
+      background-color: #e1e1e1;
+  }
+
+  @keyframes bg {
+      35% {
+          background-color: #e1e1e144;
+      }
+      65% {
+          background-color: #e1e1e1a5;
+      }
+      100% {
+          background-color: #e1e1e1;
+      }
+  }
+
+  @keyframes color {
+      0% {
+          background: #cc337d;
+      }
+      20% {
+          background: #9933cc;
+      }
+      40% {
+          background: #3336cc;
+      }
+      60% {
+          background: #3336cc;
+      }
+      80% {
+          background: #9933cc;
+      }
+      100% {
+          background: #cc337d;
+      }
+  }
+
+  @keyframes shadow {
+      0% {
+          box-shadow: 0 0 4px #cc337d;
+      }
+      20% {
+          box-shadow: 0 0 8px #9933cc;
+      }
+      40% {
+          box-shadow: 0 0 12px #3336cc;
+      }
+      60% {
+          box-shadow: 0 0 12px #3336cc;
+      }
+      80% {
+          box-shadow: 0 0 8px #9933cc;
+      }
+      100% {
+          box-shadow: 0 0 5px #cc337d;
+      }
+  }
+
+  .ImageProfileBot {
+      width: 50px;
+      height: 50px;
+      margin: auto 0;
+      padding: 0 0 0 7px;
+  }
+
+  .NameBot {
+      padding: 0 14px;
+      font-size: 18px;
+      font-family: sans-serif;
+      margin: auto 0;
+  }
+
+  .Loader {
+      background: #87888b;
+      width: 20px;
+      height: 20px;
+      margin: 0 6px;
+      border-radius: 59px;
+      animation: shadow 3s infinite linear, color 3s infinite linear;
+  }
+
+  .BoxLoader {
+      margin: 12px auto;
+      display: flex;
+      width: 94px;
+      height: 20px;
+  }
+
+  .SendmsgNow {
+      background: white;
+      padding: 17px;
+      border-radius: 23px;
+      text-align: center;
+      width: 60%;
+      margin: 100px auto;
+      font-family: sans-serif;
+  }
+
+  @keyframes senmsguser {
+      from {
+          transform: translatex(-470px);
+      }
+      to {
+          transform: translatex(0);
+      }
+  }
+
+  @keyframes senmsgbot {
+      from {
+          transform: scale(0);
+      }
+      to {
+          transform: scale(0);
+      }
+  }
+
+  @media screen and (max-width: 900px) {
+     .BoxChat{
+         margin: 10px 12%!important;
+      }
+  }
+  @media screen and (max-width: 700px) {
+     .BoxChat{
+         margin: 0!important;
+      }
+  }
+    </style>
+</head>
+
+<body>
+
+    <div class="BoxChat">
+        <div class="BoxInfoUser">
+            <img src="https://cdn-icons-png.flaticon.com/512/6569/6569264.png" class="ImageProfileBot">
+            <p class="NameBot">User</p>
+            <div class="Menu">
+                <div>New chat</div>
+            </div>
+        </div>
+        <div class="BoxMassage">
+            <div class="SendmsgNow">send now Massage (hello , how are you,...)</div>
+
+        </div>
+         <form action="{{url_for('predict')}}" method="post">
+        <div class="BoxSend">
+            <input type="text" id="msgUser" name="user" placeholder="enter your text...">
+            <div class="send">
+                <button type="submit" value="submit" name="user" class="button_css"><strong>Send</strong></button>
+            </div>
+        </div>
+             </form>
+    </div>
+</body>
+<script>
+    var BoxMassage = document.getElementsByClassName('BoxMassage');
+
+// ---------------- Massage User ----------------
+
+document.getElementsByClassName('send')[0].addEventListener('click', SendmsgUser);
+
+function SendmsgUser() {
+    document.getElementsByClassName('SendmsgNow')[0].style.display = "none";
+    let msg = document.getElementById('msgUser');
+    console.log(msg.value)
+    const request = new XMLHttpRequest()
+    request.open('POST',`/ProcessUserinfo/${JSON.stringify(msg.value)}`)
+    request.send()
+    let Boxmsg = document.createElement('div');
+    Boxmsg.className = "msgUser massage";
+    let TextUser = document.createElement('p');
+    TextUser.innerHTML = msg.value;
+    Boxmsg.appendChild(TextUser);
+    BoxMassage[0].appendChild(Boxmsg);
+    SendmsgBot(msg.value);
+    msg.value = "";
+}
+
+// ---------------- Massage Bot ----------------
+
+//--- List Default msg
+
+var ListMassageHi = ['hello', 'Hello', 'Hello!', 'hello!', 'Hello?', 'hello?', 'hi', 'hi', 'hi!', 'hi!', 'hi?', 'hi?'];
+var ListMassageHow = ['How are you', 'how are you', 'how', 'How', 'How are you!', 'how are you!', 'How are you?', 'how are you?'];
+
+
+
+function SendmsgBot(msgUser) {
+
+    let Boxmsg = document.createElement('div');
+    setTimeout(function() {
+        Boxmsg.className = "msgBot massage";
+        Boxmsg.innerHTML = '<div class="BoxLoader"><div class="Loader"></div><div class="Loader"></div><div class="Loader"></div></div>';
+        BoxMassage[0].appendChild(Boxmsg);
+    }, 5000)
+
+    var msgBotNear = "";
+    for (let i of ListMassageHi) {
+        if (i == msgUser) msgBotNear = "hi baby...";
+    }
+    for (let i of ListMassageHow) {
+        if (i == msgUser) msgBotNear = "Yes, thank's...";
+    }
+
+    if (msgBotNear == "") {
+        msgBotNear = "i don't understand!";
+    }
+    setTimeout(function() {
+        Boxmsg.innerHTML = msgBotNear;
+    }, 3000)
+}
+
+
+var menu_ = document.getElementsByClassName('Menu')[0].addEventListener('click', function() {
+    BoxMassage[0].innerHTML = '<div class="SendmsgNow">send now Massage (hello , how are you,...)</div>';
+    document.getElementsByClassName('SendmsgNow')[0].style.display = "block";
+
+});
+</script>
+
+</html>

@@ -1,0 +1,122 @@
+{
+    "intents":[
+        {"tag":"greetings",
+            "patterns":["hello","hey","hi","good day","Greetings","whats up?","How is it going?"],
+            "responses":["Hello!","Hey","What can I do for you?"]
+        },
+        {"tag":"goodbye",
+            "patterns":["cya","See you later","Goodbye","I am leaving","Have a Good day","bye","cao","see ya"],
+            "responses":["Sad to see you go","talk to you later!"]
+        },
+        {"tag":"age",
+            "patterns":["How old?","How old is florian?","what is your age?","how old are you?","age?"],
+            "responses":["I am just born in Swaddhenta Hackathon!","1 Day old!","Swadheenta gave me born a day ago!"]
+        },
+        {"tag":"name",
+            "patterns":["What is your name?","What should I call you?","Whats your name?","who are you?","Can you tell me something about yourself?"],
+            "responses":["You can call me Swadheentas Adopted kid!","I am swadhentas artificial kid!","Swadheentas nueral network!"]
+        },
+        {"tag":"shop",
+            "patterns":["Id like to buy something","what are your products?","what do you recommend?","what are you selling?"],
+            "responses":["Neural nine is a seven part python book series"]
+        },
+        {"tag":"hours",
+            "patterns":["When are you guys open?","what are your hours?","working hours?","hours of operation"],
+            "responses":["24*7"]
+        },
+        {"tag":"stock",
+            "patterns":["what stock do I own?","how are my shares?","what companies am I investing in?"],
+            "responses":["You own the following shares: ABBV, AAPL, FB, NVDA and an ETF of the S&P 500 Index!"]
+        },
+        {
+            "tag": "what stock",
+            "patterns": ["what is stocks?", "Describe stocks.", "What are stocks?", "What exactly are stocks?"],
+            "responses": ["A stock is a security that represents a fractional ownership in a company. When you buy a companys stock, youre purchasing a small piece of that company, called a share. Investors purchase stocks in companies they think will go up in value.", "a share which entitles the holder to a fixed dividend, whose payment takes priority over that of ordinary share dividends.", "In finance, stock consists of all the shares by which ownership of a corporation or company is divided. A single share of the stock means fractional ownership of the corporation in proportion to the total number of shares."]
+        },
+        {
+            "tag": "work stock",
+            "patterns": ["How does stocks work?", "How do stocks operate?", "How do stocks function?", "How are stocks traded?", "How do stocks work?"],
+            "responses": ["Stocks, shares and equities work by giving direct exposure to a companys performance. Shares will rise in value when the company is doing well, and theyll fall in value when the company is doing poorly. Stock exchanges facilitate the exchange of shares in publicly listed companies.", "A stock is a type of investment in a company. Companies issue stock shares to raise money in order to finance operational needs and to fuel growth, and investors buy those stock shares for the opportunity to generate a return on their investment.", "Companies sell shares in their business to raise money. They then use that money for various initiatives: A company might use money raised from a stock offering to fund new products or product lines, to invest in growth, to expand their operations or to pay off debt."]
+        },
+        {
+            "tag": "buy stock",
+            "patterns": ["How do I buy stocks?", "How do I buy stocks and what is the process?", "What is the process to buy stocks?", "How can I purchase stocks?", "What is the procedure for buying stocks?", "Whats the procedure for buying stocks, and how do I do it?"],
+            "responses": ["If you want to buy shares, you must first approach a SEBI-registered member, or broker, of a stock exchange. You need to then register as an investor before you begin investing; to do so, follow these steps: Find a SEBI Registered Member : Click here. Find out which stock exchange they are registered with.", "You must first speak with a member, or broker, of a stock exchange who is registered with SEBI if you want to purchase shares. Before you start investing, you must first register as an investor by taking the following actions: Locate a Registered Member of SEBI: Click this. Identify the stock exchange with which they are registered.", "The easiest way, in terms of getting a trade done, is to open and fund an online account and place a market order. While this is the quickest way to buy stocks, it might not always be the wisest. Do your own research before deciding what type of order to place and with whom."]
+        },
+        {
+            "tag": "price stock",
+            "patterns": ["What factors determine the price of a stock?", "What elements impact a stocks price?", "What variables affect a stocks price?", "How is a stocks price determined?", "What elements affect a stocks price?"],
+            "responses": ["While there are numerous factors influencing share prices, briefly explained below are some of the most crucial and decisive factors that cause stock prices to move up or down. 1. Demand and supply 2. Fundamental factors 3. Economy 4. Government policies 5. Political scenario 6. Dividend declarations", "Stock prices are driven by a variety of factors, but ultimately the price at any given moment is due to the supply and demand at that point in time in the market. Fundamental factors drive stock prices based on a companys earnings and profitability from producing and selling goods and services. Technical factors relate to a stocks price history in the market pertaining to chart patterns, momentum, and behavioral factors of traders and investors."]
+        },
+        {
+            "tag": "stock market index",
+            "patterns": ["What is stock market index and how is it calculated?", "How is the stock market index determined? What is it?", "What is a stock market index, and how does it work?", "How is the stock market index calculated, and what is it?"],
+            "responses": ["The index is calculated by adding the stock prices of the 30 companies and then dividing by the divisor. The divisor changes when there are stock splits or dividends or when a company is added or removed from the index.", "The market value for each stock is calculated by multiplying its price by the number of shares included in the index, and each stocks weight in the index is determined based on its market value relevant to the total market value of the index.", "The index is calculated as the weighted arithmetic mean with a fixed basket in the base period preceding the comparison period (Laspeyres formula)."]
+        },
+        {
+            "tag": "dividend stocks",
+            "patterns": ["What are dividend stocks?", "Dividend stocks: what are they?", "What exactly are dividend stocks?"],
+            "responses": ["A high-yield stock is a stock whose dividend yield is higher than the yield of any benchmark average such as the ten-year US Treasury note. The classification of a high-yield stock is relative to the criteria of any given analyst.", "A stock dividend is a payment to shareholders that consists of additional shares rather than cash. The distributions are paid in fractions per existing share. For example, if a company issues a stock dividend of 5%, it will pay 0.05 shares for every share owned by a shareholder.", "A dividend can be described as a reward that publicly-listed companies extend to their shareholders, and its source is the companys net profit. Such rewards can either be in the form of cash, cash equivalent, shares, etc. and are mostly paid from the remaining share of profit once essential expenses are met. A companys board of directors decides the rate of dividend, wherein, the approval of majority shareholders is also factored in."]
+        },
+        {
+            "tag": "stock split",
+            "patterns": ["What is stock split and how does it affect the stock price?", "How does a stock split effect stock price and what is it?", "What is a stock split, and what impact does it have on stock prices?", "What exactly is a stock split and how does it impact stock prices?", "What’s a stock split and how does it affect my investment?"],
+            "responses": ["Stock splits can improve trading liquidity and make the stock seem more affordable. In a stock split the number of outstanding shares increases and the price per share decreases proportionately, while the market capitalization and the value of the company do not change.", "A stock split is a corporate action, where a company splits its shares into multiple new ones. Split shares neither add any new value, nor dilute the ownership stake of the shareholders. However, what they do is increase the number of shares of the company.", "Companies typically engage in a stock split so that investors can more easily buy and sell shares, otherwise known as increasing the company’s liquidity. Stock splits divide a company’s shares into more shares, which in turn lowers a share’s price and increases the number of shares available. For existing shareholders of that company’s stock, this means that they’ll receive additional shares for every one share that they already hold."]
+        },
+        {
+            "tag": "stock volatility",
+            "patterns": ["What is stock volatility and how does it impact the stock prices?", "How does stock price volatility affect stock prices and what does it mean?", "What exactly is stock volatility, and what effects does it have on stock prices?"],
+            "responses": ["Volatility is the standard deviation of a stocks annualised returns over a given period and shows the range in which its price may increase or decrease. If the price of a stock fluctuates rapidly in a short period, hitting new highs and lows, it is said to have high volatility.", "Sometimes prices move more quickly than at other times. The speed or degree of the price change (in either direction) is called volatility. As volatility increases, the potential to make more money quickly, also increases. The tradeoff is that higher volatility also means higher risk.", "Volatility is an investment term that describes when a market or security experiences periods of unpredictable, and sometimes sharp, price movements. People often think about volatility only when prices fall, however volatility can also refer to sudden price rises too."]
+        },
+        {
+            "tag": "stock risk",
+            "patterns": ["What are the risks involved in investing in stocks and how can they be minimized?", "What are the risks involved in investing in stocks?", "What are the dangers associated with stock investing and how may they be reduced?", "What are the dangers of stock investing, and how may they be reduced?"],
+            "responses": ["Investors are always worried about risks facing their portfolios. Many investors lose money due to these risks. Though there is nothing like a risk-free investment but there are definitely some smart ways to reduce the risk and earn money in stock market. 1. Diversification of Portfolio 2. Stay Invested for Long Term 3. Seek Advice 4. Analyse Companys Background and Performance 5. Determine Your Risk Tolerance 6. Monitor Your Investments Regularly", "History shows that when people invest and stay invested, theyre more likely to earn positive returns in the long run. When markets start to fluctuate, it may be tempting to make financial decisions in reaction to changes to your portfolio. But people who base their financial decisions on emotion often end up buying when the market is high and selling when prices are low. These investors ultimately have a harder time reaching their long-term financial goals. How can you avoid making these common investing mistakes? Consider these strategies on how to reduce your investment risk, which could potentially earn you more consistent returns over time: 1. Asset allocation 2. Portfolio diversification 3. Dollar-cost averaging"]
+        },
+        {
+            "tag": "what bond",
+            "patterns": ["What is a bond?", "How do bonds work?", "What are bonds?", "What exactly is a bond?"],
+            "responses": ["A bond is a debt security that represents a loan made by an investor to a borrower, usually a corporation or government. The borrower promises to pay the bondholder periodic interest payments and to repay the bonds face value when it matures.", "A bond is a type of financial security that acts as collateral for a loan that an investor makes to a borrower, typically a business or government. The borrower pledges to repay the bonds face amount when it matures and to make periodic interest payments to the bondholder.", "A bond is a debt asset that acts as the representation of a loan from an investor to a borrower, typically a business or government. The borrower undertakes to make regular interest payments to the bondholder as well as to pay back the bonds face value when it comes due.", "A bond is a debt security that reflects a loan that an investor made to a borrower, typically a business or the government. The borrower guarantees to make regular interest payments to the bondholder as well as the face amount of the bond when it comes due."]
+        },
+        {
+            "tag": "interest rate bond",
+            "patterns": ["What factors determine the interest rate on a bond?", "What elements affect a bonds interest rate?", "What variables impact a bonds interest rate?", "What aspects influence a bonds interest rate?", "What elements impact a bonds interest rate?"],
+            "responses": ["Interest rates on bonds are determined by several factors, including the creditworthiness of the issuer, the time until the bond matures, and overall market interest rates.", "Bond interest rates are influenced by a number of variables, such as the issuers creditworthiness, the amount of time until the bond matures, and general market interest rates.", "Bond interest rates are influenced by a number of variables, including the issuers creditworthiness, the bonds remaining life, and general market interest rates.", "Bond interest rates are influenced by a number of variables, including the issuers creditworthiness, the amount of time until the bond matures, and general market interest rates."]
+        },
+        {
+            "tag": "issue bond",
+            "patterns": ["What is the purpose of issuing bonds and how do companies use the proceeds?", "Why do businesses issue bonds, and how do they spend the money raised?", "Whats the point of issuing bonds, and how do businesses spend the money received?", "Why do businesses issue bonds in the first place, and how do they spend the money raised?"],
+            "responses": ["Companies issue bonds to raise capital for various purposes, such as funding new projects, expanding their operations, or refinancing existing debt. The proceeds from the bond sale are used to finance the companys activities.", "Companies issue bonds to raise money for a variety of reasons, such as financing brand-new initiatives, growing their business, or renegotiating current debt. The companys operations are financed with the revenues from the bond sale.", "Companies sell bonds to raise money for a variety of uses, including new project funding, business growth, and debt refinancing. The companys operations are financed by the money raised through the sale of the bonds.", "Bonds are a type of capital raising tool used by businesses to finance new initiatives, grow their business, or restructure existing debt. The corporation finances its operations with the revenues from the bond sale."]
+        },
+        {
+            "tag": "calculate bond",
+            "patterns": ["What is the yield on a bond and how is it calculated?", "What is a bonds yield and how is it determined?", "What is the definition of a bonds yield and how is it determined?", "How is a bonds yield determined? What is it?"],
+            "responses": ["The yield on a bond is the return an investor earns from holding the bond, expressed as a percentage of the bonds price. It is calculated by dividing the bonds annual coupon payment by its current market price.", "The return an investor receives from owning a bond, stated as a percentage of the bonds price, is known as the yield on a bond. It is determined by subtracting the annual coupon payment from the bonds current market value.", "The return an investor receives from owning a bond is calculated as a yield, which is stated as a percentage of the bonds price. It is computed by subtracting the bonds current market price from the annual coupon payment.", "The return on a bond, expressed as a percentage of the bonds price, is known as the yield. The annual coupon payment for the bond is divided by its current market value to determine it.", "The return an investor receives from holding a bond is expressed as a percentage of the bonds price and is known as the yield on the bond. It is calculated by subtracting the annual coupon payment from the bonds current market value."]
+        },
+        {
+            "tag": "risk bonds",
+            "patterns": ["What are the risks involved in investing in bonds?", "What are the risks associated with buying bonds?", "What are the potential hazards of investing in bonds?", "What are the potential hazards of bond investing?"],
+            "responses": ["The risks involved in investing in bonds include credit risk, interest rate risk, and inflation risk. Credit risk refers to the possibility that the issuer may default on its interest payments or repayments. Interest rate risk refers to the possibility that the value of a bond may decrease as interest rates rise. Inflation risk refers to the possibility that the value of future interest and principal payments will be eroded by inflation.", "Credit risk, interest rate risk, and inflation risk are some of the hazards associated with investing in bonds. Credit risk is the chance that the issuer will be unable to make interest or repayment payments. Interest rate risk is the chance that as interest rates increase, a bonds value may drop. The risk of future interest and principal payments losing value due to inflation is known as inflation risk.", "Investments in bonds are subject to credit risk, interest rate risk, and inflation risk. Credit risk is the probability that the issuer will miss one or more of its interest or repayment obligations. The risk associated with interest rates is the potential for a bonds value to decline as rates go up. The danger that inflation will reduce the purchasing power of future interest and principal payments is referred to as inflation risk.", "Credit risk, interest rate risk, and inflation risk are among the dangers of investing in bonds. The likelihood that the issuer would miss interest or repayment instalments is referred to as credit risk. When we talk about interest rate risk, were talking about the potential that rising interest rates could lower a bonds value. The danger that future principle and interest payments will lose value due to inflation is referred to as inflation risk."]
+        },
+        {
+            "tag": "what mutual fund",
+            "patterns": ["What is mutual fund?", "Describe mutual funds."],
+            "responses": ["A mutual fund is a type of investment vehicle that pools money from many investors to purchase a diversified portfolio of securities such as stocks, bonds, and other assets.", "An investment instrument known as a mutual fund pools the funds of numerous participants to buy a diverse portfolio of securities, including stocks, bonds, and other assets.", "A mutual fund is a kind of investment instrument that combines funds from numerous individuals to buy a diverse portfolio of securities, including stocks, bonds, and other assets.", "An investment instrument known as a mutual fund pools the funds of numerous participants to buy a diverse portfolio of securities, including stocks, bonds, and other assets."]
+        },
+        {
+            "tag": "work mutual fund",
+            "patterns": ["How does a mutual fund work?", "How do mutual funds operate?", "How do mutual funds function?"],
+            "responses": ["A mutual fund is managed by a professional fund manager who invests the pool of money in a diversified portfolio of assets according to the funds investment objectives. The funds value is based on the value of the underlying securities it holds.", "A mutual fund is run by a qualified fund manager who, in accordance with the funds investment goals, invests the money in a diverse portfolio of assets. The value of the underlying securities that the fund holds determines the funds worth.", "A mutual fund is managed by a qualified fund manager, who invests the money in a variety of assets in accordance with the goals of the fund. The worth of the underlying securities the fund holds determines how much it is worth.", "A professional fund manager oversees the management of a mutual fund and makes investments on behalf of the fund in accordance with its investment goals. The worth of the underlying securities the fund holds determines the value of the investment."]
+        },
+        {
+            "tag": "benefits mutual fund",
+            "patterns": ["What are the benefits of investing in a mutual fund?", "What advantages do mutual fund investments offer?", "What advantages come with investing in a mutual fund?"],
+            "responses": ["Investing in a mutual fund provides several benefits, including diversification, professional management, and accessibility. With a mutual fund, you can invest in a diverse portfolio of assets, benefit from the expertise of a professional fund manager, and easily invest with a small amount of money.", "Diversification, expert management, and accessibility are just a few advantages of investing in mutual funds. With a mutual fund, you may easily invest with a modest amount of money, take advantage of a professional fund managers knowledge, and invest in a wide portfolio of assets.", "Diversification, expert management, and accessibility are just a few advantages of investing in a mutual fund. With a mutual fund, you may easily invest with a modest amount of money, take advantage of the experience of a qualified fund manager, and invest in a variety of assets.", "Diversification, expert management, and accessibility are just a few advantages of investing in mutual funds. With a mutual fund, you may easily invest with a modest amount of money and gain access to a wide portfolio of assets while also utilising the skills of a qualified fund manager."]
+        },
+        {
+            "tag": "types mutual funds",
+            "patterns": ["What are the types of mutual funds?", "What kinds of mutual funds are there?", "What other kinds of mutual funds exist?", "Which mutual fund categories exist?"],
+            "responses": ["There are several types of mutual funds, including stock funds, bond funds, money market funds, and hybrid funds. Stock funds invest in stocks, bond funds invest in bonds, money market funds invest in short-term debt securities, and hybrid funds invest in a mix of different assets.", "Mutual funds come in a variety of forms, such as stock funds, bond funds, money market funds, and hybrid funds. Money market funds invest in short-term debt instruments, stock funds invest in equities, bond funds invest in bonds, and hybrid funds deal in a variety of various assets.", "Mutual funds come in a variety of forms, including hybrid, money market, stock, and bond funds. Bond funds invest in bonds, money market funds in short-term debt instruments, stock funds invest in stocks, and hybrid funds deal in a variety of other assets.", "Stock funds, bond funds, money market funds, and hybrid funds are just a few of the several forms of mutual funds. Bond funds, money market funds, stock funds, and hybrid funds all invest in a variety of various assets. Stock funds, bond funds, money market funds, and stock investments all involve stocks."]
+        }
+    ]
+}

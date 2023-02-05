@@ -1,0 +1,47 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  @keyframes senmsguser {
+      from {
+          transform: translatex(-470px);
+      }
+      to {
+          transform: translatex(0);
+      }
+  }
+
+  @keyframes senmsgbot {
+      from {
+          transform: scale(0);
+      }
+      to {
+          transform: scale(0);
+      }
+  }
+
+  @media screen and (max-width: 900px) {
+     .BoxChat{
+         margin: 10px 12%!important;
+      }
+  }
+  @media screen and (max-width: 700px) {
+     .BoxChat{
+         margin: 0!important;
+      }
+  }
+    </style>
+</head>
+
+<body>
+<div style="display: flex; height: 80%;">
+      <iframe src="index.html" style="flex: 1; height: 100%;"></iframe>
+      <iframe src="index1.html" style="flex: 1; height: 100%;"></iframe>
+    </div>
+
+</body>
+
+</html>

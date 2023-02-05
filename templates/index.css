@@ -1,0 +1,211 @@
+body{
+  margin:0;
+}
+
+input {
+      width: 100%;
+      padding: 7px 26px;
+      background: #ffffff;
+      font-size: 18px;
+      color: black;
+      border-radius: 14px;
+      border: none;
+      outline: none;
+  }
+  
+  .BoxChat {
+      background: #efeae2;
+      margin: 10px 24%;
+      height: 100%;
+  }
+  
+  .BoxMassage {
+      padding: 4%;
+      overflow-y: scroll;
+      height: 58vh;
+      position: relative;
+  }
+  
+  .massage {
+      max-width: 43%;
+      padding: 1% 4%;
+      border-radius: 7.5px;
+      box-shadow: 0 1px 0.5px #0000001a;
+      margin: 17px 0;
+      font-family: sans-serif;
+      line-height: 24px;
+      animation-duration: 1s;
+  }
+  
+  .msgBot {
+      background: #d9fdd3;
+      margin-left: auto;
+      padding: 2% 4%;
+      animation-name: senmsgbot;
+  }
+  
+  .msgUser {
+      background: white;
+      animation-name: senmsguser;
+  }
+
+.massage>p {
+  margin: 3px;
+}
+  
+  .send {
+      padding: 8px 30px;
+      cursor: pointer;
+      margin: auto 0;
+  }
+  
+  .BoxSend {
+      display: flex;
+      background: #f0f2f5;
+      padding: 14px;
+  }
+  
+  .BoxInfoUser {
+      display: flex;
+      background: #f0f2f5;
+      padding: 9px;
+  }
+  
+  .Menu {
+      width: 70px;
+      padding: 10px 13px;
+      margin: auto 0;
+      margin-left: auto;
+      border-radius: 12px;
+      cursor: pointer;
+      font-family: sans-serif;
+      text-align: center;
+  }
+  
+  .Menu:hover {
+      animation: bg 2s;
+      background-color: #e1e1e1;
+  }
+  
+  @keyframes bg {
+      35% {
+          background-color: #e1e1e144;
+      }
+      65% {
+          background-color: #e1e1e1a5;
+      }
+      100% {
+          background-color: #e1e1e1;
+      }
+  }
+  
+  @keyframes color {
+      0% {
+          background: #cc337d;
+      }
+      20% {
+          background: #9933cc;
+      }
+      40% {
+          background: #3336cc;
+      }
+      60% {
+          background: #3336cc;
+      }
+      80% {
+          background: #9933cc;
+      }
+      100% {
+          background: #cc337d;
+      }
+  }
+  
+  @keyframes shadow {
+      0% {
+          box-shadow: 0 0 4px #cc337d;
+      }
+      20% {
+          box-shadow: 0 0 8px #9933cc;
+      }
+      40% {
+          box-shadow: 0 0 12px #3336cc;
+      }
+      60% {
+          box-shadow: 0 0 12px #3336cc;
+      }
+      80% {
+          box-shadow: 0 0 8px #9933cc;
+      }
+      100% {
+          box-shadow: 0 0 5px #cc337d;
+      }
+  }
+  
+  .ImageProfileBot {
+      width: 50px;
+      height: 50px;
+      margin: auto 0;
+      padding: 0 0 0 7px;
+  }
+  
+  .NameBot {
+      padding: 0 14px;
+      font-size: 18px;
+      font-family: sans-serif;
+      margin: auto 0;
+  }
+  
+  .Loader {
+      background: #87888b;
+      width: 20px;
+      height: 20px;
+      margin: 0 6px;
+      border-radius: 59px;
+      animation: shadow 3s infinite linear, color 3s infinite linear;
+  }
+  
+  .BoxLoader {
+      margin: 12px auto;
+      display: flex;
+      width: 94px;
+      height: 20px;
+  }
+  
+  .SendmsgNow {
+      background: white;
+      padding: 17px;
+      border-radius: 23px;
+      text-align: center;
+      width: 60%;
+      margin: 100px auto;
+      font-family: sans-serif;
+  }
+  
+  @keyframes senmsguser {
+      from {
+          transform: translatex(-470px);
+      }
+      to {
+          transform: translatex(0);
+      }
+  }
+  
+  @keyframes senmsgbot {
+      from {
+          transform: scale(0);
+      }
+      to {
+          transform: scale(0);
+      }
+  }
+  
+  @media screen and (max-width: 900px) {
+     .BoxChat{
+         margin: 10px 12%!important;
+      }
+  }
+  @media screen and (max-width: 700px) {
+     .BoxChat{
+         margin: 0!important;
+      }
+  }
